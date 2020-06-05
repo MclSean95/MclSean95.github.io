@@ -34,6 +34,7 @@ li a:hover{
 h1[name = testname]{
     color: green;
     margin-bottom: 1px;
+    padding-top: 30px;
 }
 h4{
     margin-top: 1px;
@@ -61,7 +62,7 @@ button{
     margin: 4px 25%;
 }
 
-h2[name=contactMe]{
+h2[name= contactMe]{
     text-align: center;
     border-radius: 4px;
 }
@@ -81,6 +82,8 @@ div[name= rightImage]{
 
 div[name= wrapper]{
     background-color: rgb(23, 23, 146);
+    padding-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 span[name= landingTxt]{
@@ -90,8 +93,8 @@ span[name= landingTxt]{
 
 img[name= landingImg]{
     float: right;
-    margin-right: 15px;
+    margin-right: 20px;
 }
 div[name= landingBox]{
-    margin: 10px 15%;
+    margin: 10px 15% 20px;
 }
