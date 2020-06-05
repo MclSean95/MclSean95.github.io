@@ -1,3 +1,97 @@
+body{
+    margin: 5px 10%;
+    background-color: grey;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
 li {
-    display: inline;
+    float: left;
+}
+
+li a{
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px 18px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: dimgray;
+}
+
+.active{
+    background-color: green;
+}
+
+h1[name = testname]{
+    color: green;
+    margin-bottom: 1px;
+}
+h4{
+    margin-top: 1px;
+}
+
+input{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 25%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea{
+    width: 47%;
+    height: 100px;
+    margin: 8px 25%;
+    border-radius: 4px;
+    padding: 12px 20px;
+}
+
+button{
+    margin: 4px 25%;
+}
+
+h2[name=contactMe]{
+    text-align: center;
+    border-radius: 4px;
+}
+
+span{
+    vertical-align: top;
+}
+
+div[name= leftImage]{
+    margin-left: 20px;
+}
+
+div[name= rightImage]{
+    text-align: right;
+    margin-right: 20px;
+}
+
+div[name= wrapper]{
+    background-color: rgb(23, 23, 146);
+}
+
+span[name= landingTxt]{
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+img[name= landingImg]{
+    float: right;
+    margin-right: 15px;
+}
+div[name= landingBox]{
+    margin: 10px 15%;
 }
