@@ -146,3 +146,8 @@ a[name= resume]{
     margin-left: 30%;
     padding-top: 20px;
 }
+
+h2[name= comingSoon]{
+    margin-left: 40%;
+    color: white;
+}
