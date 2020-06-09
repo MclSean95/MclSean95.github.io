@@ -4,9 +4,9 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div>
-            <h1 name="testname">Sean McLaughlin</h1>
-            <h3>Game Developer/Software Engineer</h3>
+        <div name= "nav">
+            <h1 name="name">Sean McLaughlin</h1>
+            <h4>Game Developer/Software Engineer</h4>
             <ul>
                 <li><a href=index.html>Home</a></li>
                 <li><a href=projects.html>Projects</a></li>
@@ -15,16 +15,24 @@
             </ul>
         </div>
 
-        <h2 name=contactMe>Contact Me</h2>
-        <form name= "contactForm" method="post" action="https://usebasin.com/f/ca9345298276">
-            <input name= "name" placeholder="Your name" required>
-            <input name="email" placeholder="Email address" required>
-            <input name="subject" placeholder="Subject" required>
-            <textarea name="message" placeholder="Your message"></textarea>
-            <button type="submit">Submit</button>
-        </form>
+        <div name= "wrapper">
+            <h2 name=contactMe>Contact Me</h2>
+            <form name= "contactForm" method="post" action="https://usebasin.com/f/ca9345298276">
+                <input name= "name" placeholder="Your name" required>
+                <input name="email" placeholder="Email address" required>
+                <input name="subject" placeholder="Subject" required>
+                <textarea name="message" placeholder="Your message"></textarea>
+                <button type="submit">Submit</button>
+            </form>
 
-        <a href="https://www.linkedin.com"><img src="images/IMG_2037.JPG" height="100px" width="100px" alt="linkedIn"></a>
+            <div name= "social">
+                <h3 name= "socialHeader">Also feel free to contact me or view my work any of these sites.</h3>
+                <a href="https://www.linkedin.com/in/sean-mclaughlin-23219b155"><img src="images/linkedIn.png" height="50px" width= "50px" alt="LinkedIn"></a>
+                <a href="https://github.com/MclSean95"><img src="images/GitHub-Mark.png" height="50px" width="50px" alt="Github"></a>
+                <a href="https://www.instagram.com/MclSean95/"><img src="images/instagram.png" height="50px" width="50px" alt="Instagram"></a>
+                <a href="https://www.facebook.com/sean.mclaughlin.9404"><img src="images/facebook.png" height="50px" width="50px" alt="Facebook"></a>
+            </div>
+        </div>
     </body>
     <footer>Copyright &copy; Sean McLaughlin 2020</footer>
 </html>
