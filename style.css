@@ -1,44 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Montserrat:wght@300&family=Tektur&display=swap');
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 50% auto;
+    column-gap: 10px;
+    
+}
+
+.sub-grid-container{
+    display: grid;
+    grid-template-columns: 30% auto;
+    column-gap: 10px;
+    
+}
+
+.name{
+    position: sticky;
+    top: 0;
+    height: 100px;
+}
+
+.timeframe{
+    margin-right: 15px;
+}
+
+.experience{
+    padding: 15px;
+    font-size: 18px;
+}
+
+.experience:hover{
+    background-color: #494e5e;
+    border-radius: 15px;
+}
+
+*{
+    font-family: sans-serif;
+    font-weight: 200;
+    font-family: "Hind Siliguri";
+    color: #E7ECEF;
+}
+
 body{
-    margin: 5px 10%;
-    background-color: rgb(97, 96, 96);
+    margin: 0px;
+    background-color: #30343F;
+    max-width: 100%;
+    overflow-x: hidden;
+    margin-top: 25px;
 }
 
 ul{
     list-style-type: none;
-    margin: 0;
+    margin: auto;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(0, 0, 0);
+    text-align: center;
+    width: fit-content;
+    font-size: 18px;
 }
 
-li {
-    float: left;
+a:hover{
+    color: #E3A729;
 }
 
 li a{
     display: block;
-    color: rgb(255, 255, 255);
+    color: #E7ECEF;
     text-align: center;
-    padding: 15px 18px;
+    padding: 5px;
     text-decoration: none;
-}
-
-li a:hover{
-    background-color: rgb(51, 51, 51);
-}
-
-.active{
-    background-color: rgba(10, 0, 150, 0.856);
 }
 
 h1[name = name]{
     margin-bottom: 1px;
-    padding-top: 30px;
-    color: rgba(10, 0, 150, 0.856);
+    color: #E7ECEF;
+    text-align: center;
+    font-weight: 100;
+    font-family: "Montserrat";
+    font-size: 50px;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 0px;
 }
 h4{
     margin-top: 1px;
-    color:  rgb(194, 194, 194);
+    color: #F99123;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
 input{
@@ -66,42 +116,32 @@ button{
 h2[name= contactMe]{
     text-align: center;
     border-radius: 4px;
-    margin-top: 0px;
-    padding-top: 20px;
-    color:  rgb(194, 194, 194);
+    padding-top: 25px;
+    color:  #F99123;
 }
 
 span{
-    color:  rgb(194, 194, 194);;
+    color:  #E7ECEF;
     vertical-align: top;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 div[name= leftImage]{
-    margin-left: 15%;
     margin-right: 15%;
     padding-bottom: 20px;
-    height: 200px;
 }
 
-div[name= rightImage]{
-    margin-right: 15%;
-    margin-left: 15%;
-    padding-bottom: 20px;
-    height: 200px;
-}
 
-div[name= wrapper]{
-    background-color: rgb(56, 56, 56);
+.wrapper{
     padding-bottom: 20px;
-    margin-bottom: 15px;
-    padding-top: 20px;
+    margin-bottom: 0px;
+    width: fit-content;
 }
 
 span[name= landingTxt]{
-    font-size: 20px;
+    font-size: 18px;
     margin-right: 5px;
-    color: rgb(194, 194, 194);
+    color: #E7ECEF;
 }
 
 img[name= landingImg]{
@@ -109,7 +149,7 @@ img[name= landingImg]{
     margin-right: 20px;
 }
 div[name= landingBox]{
-    margin: 10px 15% 20px;
+    margin-right: 15%;
 }
 
 div[name= social]{
@@ -117,15 +157,17 @@ div[name= social]{
 }
 
 h2[name= landingHeader]{
-    color: rgb(194, 194, 194);
-}
-
-a:visited{
-    color: white;
+    color: #E7ECEF;
+    font-weight: 200;
+    font-size: 25px;
+    margin-top: 0px;
 }
 
 h3{
-    color:  rgb(194, 194, 194);;
+    color:  #E7ECEF;
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-decoration: underline;
 }
 
 img[name= left]{
@@ -133,21 +175,20 @@ img[name= left]{
     padding-right: 20px;
 }
 
-img[name= right]{
-    float: right;
-    padding-left: 20px;
-}
-
-h3[name= headerRight]{
-    text-align: right;
-}
-
 a[name= resume]{
     margin-left: 30%;
     padding-top: 20px;
 }
 
-h2[name= comingSoon]{
-    margin-left: 40%;
-    color: white;
+footer{
+    color: #E7ECEF;
+    background-color: #24262A;
+    padding: 20px 20px;
+}
+
+.section-header{
+    margin-bottom: 5px;
+    text-align: center;
+    padding-top: 25px;
+    color: #F99123;
 }

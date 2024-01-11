@@ -9,42 +9,165 @@
     </head>
     <body>
         
-        <div name= "nav">
-            <h1 name="name">Sean McLaughlin</h1>
-            <h4>Game Developer/Software Engineer</h4>
-            
-            <ul>
-                <li><a class= "active" href=index.html>Home</a></li>
-                <li><a href=projects.html>Projects</a></li>
-                <li><a href=resume.html>Resume</a></li>
-                <li><a href=contact.html>Contact</a></li>
-            </ul>
+        
+        
+        <div class= "grid-container">
+        <div class="grid-item name">
+                <h1 name="name">Sean McLaughlin</h1>
+                <h4>Game Developer/Software Engineer</h4>
+
+                <div class= "nav">
+                    <ul>
+                        <li><a href=#Projects>Projects</a></li>
+                        <li><a href=#Experience>Experience</a></li>
+                        <li><a href=#Education>Education</a></li>
+                        <li><a href=#Contact>Contact</a></li>
+                    </ul>
+                </div>
         </div>
-        <div name= "wrapper">
-            <br>
-            <div name= "landingBox">
-            <h2 name= "landingHeader">Hi! let me tell you a little about me.</h2>
-            <img name="landingImg" src="images/AboutImg.jpg" height="250" width="180">
-            <span name= "landingTxt">
-                My name is Sean McLaughlin, and I graduated from New England Institute of Technology in 2019 with a 
-                Bachelor’s Degree in Video Game Development & Simulation Technology. After graduation 
-                I went on a cross-country road trip exploring the amazing landscapes of the United States. While 
-                on the road I had plenty of down time to reflect on what it is I really want to do. I came to realize
-                that I want to write code for an awesome company with an affinity for taking programming to the next level. 
-                Aside from writing code in my spare time I also am an avid rock climber, skier, and video game player. 
-                Since graduating I’ve begun working on multiple side projects including a new game I am creating in Unity, 
-                a mobile adaptation of a previous web application I created using Xamarin and Microsoft Azure, and even this 
-                portfolio you’re viewing now. Enough about me though go check out some of my work for yourself on the projects 
-                page found <a href="projects.html">here</a>.
-                <br>
-                <br>
-                I am currently on the hunt for a job so feel free to reach out to me via my contacts page <a href="contact.html">here</a>.
+        
+        <div class="grid-item wrapper">
+            <div name= "landingBox" >
+                <span name= "landingTxt">
+                    Hi! I’m Sean Mclaughlin, a Junior Developer with a passion for creating great user experiences with a keen attention to detail.
+                     I love getting my hands on new technologies and solving problems creativly. When I'm not working you can find me rock climbing, 
+                     playing video games, skiing, or disc golfing!
                 </span>
-            </span>
+            </div>
+            
+            <hr style="width: 85%; float: left; margin-top: 25px;">
+            <h2 id = "Experience"  class="section-header">Experience</h2>
+
+
+            <div class="sub-grid-container experience" name= "landingBox">
+                <div>
+                    <p class="timeframe grid-item">Oct 2022 - Present</p>
+                </div>
+                <div class="description">
+                    <p class="title">UI/UX Associate Specialist</p>
+                    <p></p>
+                    <p class="temp">Worked as part of a small email team responsible for creating and sending marketing emails.
+                         Responsibilities included optimizing email aspects, from design to targeting specific audiences, by closely collaborating
+                         with the marketing team. I created, deployed, and optimized marketing emails utilizing insights from Adobe
+                          Analytics. I was also tasked with designing & Implementing a new internal ticketing process using JIRA. 
+                          I helped facilitate cross departmental communication with non-technical teams to ensure all business needs were met.
+                           I Took the lead in the launch of a new A/B testing process specifically tailored to email marketing and shaped new
+                            testing methodologies through iteration and innovation.
+                    </p>
+                </div>
+            </div>
+            <div class="sub-grid-container experience" name= "landingBox">
+                <div>
+                    <p class="timeframe grid-item">Jun 2021 - Oct 2022</p>
+                </div>
+                <div class="description">
+                    <p class="title">Web Content Associate</p>
+                    <p></p>                    
+                    <p class="temp">Closely collaborated with team members to ensure the content on the website was up to date. Helped to 
+                        optimize the site through the use of A/B testing. Worked to maintain and upgrade the AAA Website through the use of 
+                        Adobe Experience Manager. Optimized the website through A/B testing based on data driven insights and leveraged custom 
+                        code elements to build on top of existing structure.
+                    </p>
+                </div>
+            </div>
+            <div class="sub-grid-container experience" name= "landingBox">
+                <div>
+                    <p class="timeframe grid-item">Nov 2020 - Jun 2021</p>
+                </div>
+                <div class="description">
+                    <p class="title">IT Support/Programmer</p>
+                    <p></p>
+                    <p class="temp">Worked with the IT, Management, and Warehouse teams to identify the needs of each team. Helped to outline an 
+                        onboarding/launch plan for a new enterprise resource planning software. Assisted in the process of onboarding a new Enterprise
+                         Resource Planning software and exported and sanitized data for thousands of products. I also facilitated communication
+                          between technical and non technical teams.
+                    </p>
+                </div>
+            </div>
+            
+            <h2 id = "Education"  class="section-header">Education</h2>
+
+
+            <div class="sub-grid-container experience" name= "landingBox">
+                <div>
+                    <p class="timeframe grid-item">Mar 2017 - Mar 2019</p>
+                </div>
+                <div class="description">
+                    <p class="title">New England Institute of Technology</p>
+                    <p></p>
+                    <p class="temp">Graduated with a Bachelor’s of Science in Video Game Development and Simulation Technology.
+                    </p>
+                </div>
+            </div>
+            
+            <hr style="width: 85%; float: left;">
+    
+    <!-- Projects --> 
+        <div class= "wrapper">
+            <h2 id = "Projects" class="section-header">Relevant Projects</h2>
+
+            <div name= "leftImage">
+                <h3><b>Droplet (Unity/C#)</b></h3>
+                <img name="left" src="images/Droplet_Title_Screen.png" height="150" width="220">
+                <span> Droplet is my final school project. I worked in Unity with 2 designers. We set out to make an engaging
+                        2D puzzle platformer experience. We accomplised our goal creating a functional intuitve 1-hour long experince
+                        in just under 20 weeks. As the only programmer for the team meant I had to wear many hats. Working in a 
+                        variety of disciplines including AI, sound, animation, player controls, and everything in between. Feel 
+                        free to check out the trailer for the game <a href="https://www.youtube.com/watch?v=jczNyDv2_4Y&feature=youtu.be">here</a> 
+                        or download it and give it a try for yourself <a href="https://github.com/MclSean95/Droplet">here</a>.
+                    </span>
+            </div>
+            
+            <div name= "leftImage">
+                <h3 name= "headerleft">Scheduling Genetic Algorithm (Visual Studio/C#)</h3>
+                <img name= "left" src="images/SchedulingGA.PNG" height="150" width="220">
+                <span> This was my final project in my Artificial Intelligence class. I was tasked with designing a genetic algorithm 
+                    that I then had to pitch to my professor. Once I came up with the idea and successfully pitched it, I had to implement 
+                    the algorithm. The concept is a scheduling software that considers the number of employees, the shifts that need to be 
+                    filled, employee availability, and some other rules such as limiting employees’ hours and not scheduling employees for 
+                    back to back shifts. I created a console application that used a genetic algorithm to create a schedule that fit the criteria
+                     listed above. </span>
+                
+                
+            </div>
+            <div name= "leftImage">
+                <h3>RopeUp (HTML\Node.js\mongoDB)</h3>
+                <img name="left" src="images/RopeUp.PNG" height="150" width="220">
+                <span>RopeUp was a project that started as an idea to help the community at the rock climbing gym I work at. The problem for some 
+                    climbers is to find a partner to climb with so they can climb the higher walls we have. RopeUp is a solution to that problem. 
+                    Utilizing Node.JS and mongoDB I created a website that allowed users to enter information about when they would be at the gym. 
+                    Using this the app would run a search to other climbers that would be at the gym on similar days and times and allow them to connect.
+                </span>
             </div>
         </div>
+    <!-- End Projects -->
+    <hr style="width: 85%; float: left;">
+    
+
+    <div name= "wrapper" id="Contact">
+        <h2 name=contactMe>Contact Me</h2>
+        <form name= "contactForm" method="post" action="https://usebasin.com/f/ca9345298276">
+            <input name= "name" placeholder="Your name" required>
+            <input name="email" placeholder="Email address" required>
+            <input name="subject" placeholder="Subject" required>
+            <textarea name="message" placeholder="Your message"></textarea>
+            <button type="submit" style="color: black;">Submit</button>
+        </form>
+
+        <div name= "social">
+            <span>Also feel free to contact me or view my work any of these sites.</span><br>
+            <a href="https://www.linkedin.com/in/sean-mclaughlin-23219b155"><img src="images/linkedIn.png" height="50px" width= "50px" alt="LinkedIn"></a>
+            <a href="https://github.com/MclSean95"><img src="images/GitHub-Mark.png" height="50px" width="50px" alt="Github"></a>
+            <a href="https://www.instagram.com/MclSean95/"><img src="images/instagram.png" height="50px" width="50px" alt="Instagram"></a>
+            <a href="https://www.facebook.com/sean.mclaughlin.9404"><img src="images/facebook.png" height="50px" width="50px" alt="Facebook"></a>
+        </div>
+    </div>
+            </div>
+            </div>
     </body>
 
-    <footer>Copyright &copy; Sean McLaughlin 2020</footer>
+    <footer>
+        <span style="margin-left: 10px">Copyright &copy; Sean McLaughlin 2024</span>
+    </footer>
 
 </html>
